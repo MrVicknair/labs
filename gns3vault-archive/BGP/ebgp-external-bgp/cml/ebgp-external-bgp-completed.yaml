@@ -52,9 +52,9 @@ nodes:
         content: |-
           Building configuration...
 
-          Current configuration : 1156 bytes
+          Current configuration : 1178 bytes
           !
-          ! Last configuration change at 06:14:10 UTC Sat Jan 24 2026
+          ! Last configuration change at 06:35:26 UTC Sat Jan 24 2026
           !
           version 17.16
           service timestamps debug datetime msec
@@ -146,6 +146,7 @@ nodes:
           router bgp 4
            bgp log-neighbor-changes
            network 4.4.4.0 mask 255.255.255.0
+           network 192.168.34.0
            neighbor 192.168.34.3 remote-as 3
           !
           ip forward-protocol nd
@@ -222,7 +223,7 @@ nodes:
 
           Current configuration : 1322 bytes
           !
-          ! Last configuration change at 06:14:10 UTC Sat Jan 24 2026
+          ! Last configuration change at 06:35:27 UTC Sat Jan 24 2026
           !
           version 17.16
           service timestamps debug datetime msec
@@ -391,9 +392,9 @@ nodes:
         content: |-
           Building configuration...
 
-          Current configuration : 1322 bytes
+          Current configuration : 1344 bytes
           !
-          ! Last configuration change at 06:14:09 UTC Sat Jan 24 2026
+          ! Last configuration change at 06:35:26 UTC Sat Jan 24 2026
           !
           version 17.16
           service timestamps debug datetime msec
@@ -484,6 +485,7 @@ nodes:
           router bgp 2
            bgp log-neighbor-changes
            network 2.2.2.0 mask 255.255.255.0
+           network 192.168.23.0
            neighbor 3.3.3.3 remote-as 3
            neighbor 3.3.3.3 ebgp-multihop 255
            neighbor 3.3.3.3 update-source Loopback0
@@ -562,9 +564,9 @@ nodes:
         content: |-
           Building configuration...
 
-          Current configuration : 1154 bytes
+          Current configuration : 1176 bytes
           !
-          ! Last configuration change at 06:14:10 UTC Sat Jan 24 2026
+          ! Last configuration change at 06:35:26 UTC Sat Jan 24 2026
           !
           version 17.16
           service timestamps debug datetime msec
@@ -656,6 +658,7 @@ nodes:
           router bgp 1
            bgp log-neighbor-changes
            network 1.1.1.0 mask 255.255.255.0
+           network 192.168.12.0
            neighbor 192.168.12.2 remote-as 2
           !
           ip forward-protocol nd

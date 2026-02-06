@@ -1,0 +1,506 @@
+annotations:
+  - border_color: '#808080FF'
+    border_radius: 0
+    border_style: ''
+    color: '#A8AC35FF'
+    rotation: 0
+    thickness: 1
+    type: rectangle
+    x1: -712.99028229023
+    y1: -119.00029447605363
+    x2: 440.0
+    y2: 227.91636498719558
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: EIGRP AS 12
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -700.507950853448
+    y1: -110.01943923311342
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: 192.168.12.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -562.5485885488486
+    y1: -69.03151275131218
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -619.5200243716465
+    y1: -63.02150056548881
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -397.5736190134068
+    y1: -65.00913257123642
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: |-
+      VRF SULU:
+
+      L0: 1.1.1.1/24
+      L1: 11.11.11.11/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -699.4846872452111
+    y1: 13.96760382052696
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#000000'
+    rotation: 0
+    text_bold: false
+    text_content: |-
+      VRF CHEKOV:
+
+      L0: 2.2.2.2/24
+      L1: 22.22.22.22/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -439.5494719770093
+    y1: 16.978499434511193
+    z_index: 2
+smart_annotations: []
+nodes:
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1596 bytes
+          !
+          ! Last configuration change at 02:36:50 UTC Fri Feb 6 2026
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname Sulu
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          vrf definition sulu
+           !
+           address-family ipv4
+           exit-address-family
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          no ip domain lookup
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           vrf forwarding sulu
+           ip address 1.1.1.1 255.255.255.0
+          !
+          interface Loopback1
+           vrf forwarding sulu
+           ip address 11.11.11.11 255.255.255.0
+          !
+          interface Tunnel1
+           vrf forwarding sulu
+           ip address 192.168.21.1 255.255.255.0
+           tunnel source 192.168.12.1
+           tunnel destination 192.168.12.2
+          !
+          interface Ethernet0/0
+           ip address 192.168.12.1 255.255.255.0
+          !
+          interface Ethernet0/1
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          !
+          router eigrp 12
+           !
+           address-family ipv4 vrf sulu autonomous-system 12
+            network 1.1.1.0 0.0.0.255
+            network 11.11.11.0 0.0.0.255
+            network 192.168.21.1 0.0.0.0
+            passive-interface Loopback1
+            passive-interface Loopback0
+           exit-address-family
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          no ip http server
+          no ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n0
+    image_definition: null
+    label: Sulu
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -640
+    y: -40
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1608 bytes
+          !
+          ! Last configuration change at 02:36:50 UTC Fri Feb 6 2026
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname Chekov
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          vrf definition chekov
+           !
+           address-family ipv4
+           exit-address-family
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          no ip domain lookup
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           vrf forwarding chekov
+           ip address 2.2.2.2 255.255.255.0
+          !
+          interface Loopback1
+           vrf forwarding chekov
+           ip address 22.22.22.22 255.255.255.0
+          !
+          interface Tunnel1
+           vrf forwarding chekov
+           ip address 192.168.21.2 255.255.255.0
+           tunnel source 192.168.12.2
+           tunnel destination 192.168.12.1
+          !
+          interface Ethernet0/0
+           ip address 192.168.12.2 255.255.255.0
+          !
+          interface Ethernet0/1
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          !
+          router eigrp 12
+           !
+           address-family ipv4 vrf chekov autonomous-system 12
+            network 2.2.2.0 0.0.0.255
+            network 22.22.22.0 0.0.0.255
+            network 192.168.21.2 0.0.0.0
+            passive-interface Loopback0
+            passive-interface Loopback1
+           exit-address-family
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          no ip http server
+          no ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n1
+    image_definition: null
+    label: Checkov
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -360
+    y: -40
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+links:
+  - id: l0
+    n1: n0
+    n2: n1
+    i1: i1
+    i2: i1
+    conditioning: {}
+    label: Sulu-Ethernet0/0<->Checkov-Ethernet0/0
+lab:
+  description: ''
+  notes: ''
+  title: vrf-routing-completed
+  version: 0.3.0

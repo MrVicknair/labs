@@ -1,0 +1,1121 @@
+annotations:
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 192.168.12.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -744.5749967078345
+    y1: 0.0
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 192.168.13.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -427.27259119298236
+    y1: 149.4125148147444
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 192.168.13.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -433.5476010694787
+    y1: 1.2274746503261786
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 192.168.12.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -746.780176460067
+    y1: 149.20249769548417
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 'L0: 1.1.1.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -738.1974627067898
+    y1: -123.2722664567526
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 'L0: 1.1.1.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -732.1324699495535
+    y1: 290.0128132136507
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 'L0: 2.2.2.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -405.2274087152765
+    y1: 286.82280399558755
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 'L0: 2.2.2.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -414.587419250206
+    y1: -118.95979114799329
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -645.647442953797
+    y1: -72.36975559260672
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -648.8374521718601
+    y1: 225.2277993865559
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -572.0274613899236
+    y1: 52.152736835412796
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -564.4199683034708
+    y1: 85.98273551854662
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -479.6874587561912
+    y1: 55.0277203745856
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -476.7074666573881
+    y1: 88.85771905771945
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.3'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -402.7724594146242
+    y1: -79.37982538651382
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.3'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -368.9424607314905
+    y1: 204.33522662969995
+    z_index: 2
+smart_annotations: []
+nodes:
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1104 bytes
+          !
+          ! Last configuration change at 03:06:46 UTC Fri Feb 6 2026
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname GrapeBranch
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          no ip domain lookup
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 2.2.2.2 255.255.255.0
+          !
+          interface Ethernet0/0
+           ip address 192.168.13.3 255.255.255.0
+          !
+          interface Ethernet0/1
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router ospf 1
+           network 0.0.0.0 255.255.255.255 area 0
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          no ip http server
+          no ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n0
+    image_definition: null
+    label: GrapeBranch
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -360
+    y: -80
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1438 bytes
+          !
+          ! Last configuration change at 03:06:46 UTC Fri Feb 6 2026
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname ISP
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          vrf definition Grape
+           !
+           address-family ipv4
+           exit-address-family
+          !
+          vrf definition Melon
+           !
+           address-family ipv4
+           exit-address-family
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          no ip domain lookup
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 5.5.5.5 255.255.255.0
+          !
+          interface Ethernet0/0
+           vrf forwarding Grape
+           ip address 192.168.12.2 255.255.255.0
+          !
+          interface Ethernet0/1
+           vrf forwarding Melon
+           ip address 192.168.12.2 255.255.255.0
+          !
+          interface Ethernet0/2
+           vrf forwarding Grape
+           ip address 192.168.13.2 255.255.255.0
+          !
+          interface Ethernet0/3
+           vrf forwarding Melon
+           ip address 192.168.13.2 255.255.255.0
+          !
+          router ospf 1 vrf Grape
+           network 0.0.0.0 255.255.255.255 area 0
+          !
+          router ospf 2 vrf Melon
+           network 0.0.0.0 255.255.255.255 area 0
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          no ip http server
+          no ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n1
+    image_definition: null
+    label: ISP
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -520
+    y: 80
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1100 bytes
+          !
+          ! Last configuration change at 03:06:46 UTC Fri Feb 6 2026
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname GrapeHQ
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          no ip domain lookup
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 1.1.1.1 255.255.255.0
+          !
+          interface Ethernet0/0
+           ip address 192.168.12.1 255.255.255.0
+          !
+          interface Ethernet0/1
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router ospf 1
+           network 0.0.0.0 255.255.255.255 area 0
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          no ip http server
+          no ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n2
+    image_definition: null
+    label: GrapeHQ
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -680
+    y: -80
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1104 bytes
+          !
+          ! Last configuration change at 03:06:46 UTC Fri Feb 6 2026
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname MelonBranch
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          no ip domain lookup
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 2.2.2.2 255.255.255.0
+          !
+          interface Ethernet0/0
+           ip address 192.168.13.3 255.255.255.0
+          !
+          interface Ethernet0/1
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router ospf 1
+           network 0.0.0.0 255.255.255.255 area 0
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          no ip http server
+          no ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n3
+    image_definition: null
+    label: MelonBranch
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -360
+    y: 240
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1100 bytes
+          !
+          ! Last configuration change at 03:06:46 UTC Fri Feb 6 2026
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname MelonHQ
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          no ip domain lookup
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 1.1.1.1 255.255.255.0
+          !
+          interface Ethernet0/0
+           ip address 192.168.12.1 255.255.255.0
+          !
+          interface Ethernet0/1
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router ospf 1
+           network 0.0.0.0 255.255.255.255 area 0
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          no ip http server
+          no ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n4
+    image_definition: null
+    label: MelonHQ
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -680
+    y: 240
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+links:
+  - id: l0
+    n1: n1
+    n2: n2
+    i1: i1
+    i2: i1
+    conditioning: {}
+    label: ISP-Ethernet0/0<->GrapeHQ-Ethernet0/0
+  - id: l1
+    n1: n1
+    n2: n4
+    i1: i2
+    i2: i1
+    conditioning: {}
+    label: ISP-Ethernet0/1<->MelonHQ-Ethernet0/0
+  - id: l2
+    n1: n1
+    n2: n0
+    i1: i3
+    i2: i1
+    conditioning: {}
+    label: ISP-Ethernet0/2<->GrapeBranch-Ethernet0/0
+  - id: l3
+    n1: n1
+    n2: n3
+    i1: i4
+    i2: i1
+    conditioning: {}
+    label: ISP-Ethernet0/3<->MelonBranch-Ethernet0/0
+lab:
+  description: ''
+  notes: ''
+  title: vrf-lite-completed
+  version: 0.3.0

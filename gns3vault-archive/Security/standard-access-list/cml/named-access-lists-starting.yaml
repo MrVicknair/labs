@@ -1,0 +1,643 @@
+annotations:
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 192.168.12.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -588.0035337126435
+    y1: -27.003828188697156
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 192.168.13.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -286.99793866762457
+    y1: -26.00412266475078
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 192.168.23.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -449.9970552394637
+    y1: 95.00736190134074
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -416.00706742528706
+    y1: -94.99558285919558
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -326.9861596254795
+    y1: -92.99617181130283
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -529.8321486494317
+    y1: 39.98822095785485
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -495.8303817931099
+    y1: 87.98586514942582
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.3'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -246.8919272883184
+    y1: 42.0111900900379
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.3'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -278.87072501245706
+    y1: 85.010306661877
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: |-
+      Lo: 1.1.1.1/25
+      L1: 11.11.11.11/26
+      L2: 111.111.111.111/27
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -453.5806864386944
+    y1: -214.49440876855502
+    z_index: 2
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: |-
+      L0: 2.2.2.2/23
+      L1: 22.22.22.22/30
+      L2: 222.222.222/32
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -657.5794195310451
+    y1: 133.755950808528
+    z_index: 3
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: |-
+      L0: 3.3.3.3/28
+      L1: 33.33.33.33/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -257.8820309993737
+    y1: 130.12920896330002
+    z_index: 4
+smart_annotations: []
+nodes:
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1530 bytes
+          !
+          ! Last configuration change at 05:48:15 UTC Wed Feb 11 2026
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname CIA
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          no ip domain lookup
+          ip domain name gns3vault.local
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          crypto pki trustpoint TP-self-signed-998521732
+           enrollment selfsigned
+           subject-name cn=IOS-Self-Signed-Certificate-998521732
+           revocation-check none
+           rsakeypair TP-self-signed-998521732
+           hash sha512
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          username gns3 password 0 vault
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 1.1.1.1 255.255.255.128
+          !
+          interface Loopback1
+           ip address 11.11.11.11 255.255.255.192
+          !
+          interface Loopback2
+           ip address 111.111.111.111 255.255.255.224
+          !
+          interface Ethernet0/0
+           ip address 192.168.12.1 255.255.255.0
+          !
+          interface Ethernet0/1
+           ip address 192.168.13.1 255.255.255.0
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router ospf 1
+           network 0.0.0.0 255.255.255.255 area 0
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           password gns3vault
+           login local
+           transport input telnet ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n0
+    image_definition: null
+    label: CIA
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -360
+    y: -120
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: "Building configuration...\n\nCurrent configuration : 1595 bytes\n\
+          !\n! Last configuration change at 05:30:31 UTC Wed Feb 11 2026\n!\nversion\
+          \ 17.16\nservice timestamps debug datetime msec\nservice timestamps log\
+          \ datetime msec\n!\nhostname FBI\n!\nboot-start-marker\nboot-end-marker\n\
+          !\n!\nno logging console\nno aaa new-model\n!\n!\n!\n!\n!\n!\n!\n!\n!\n\
+          !\n!\n!\n!\nno ip domain lookup\nip domain name gns3vault.local\nip cef\n\
+          login on-success log\nno ipv6 cef\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ncrypto\
+          \ pki trustpoint TP-self-signed-998521732\n enrollment selfsigned\n subject-name\
+          \ cn=IOS-Self-Signed-Certificate-998521732\n revocation-check none\n rsakeypair\
+          \ TP-self-signed-998521732\n hash sha512\n!\n!\ncrypto pki certificate chain\
+          \ TP-self-signed-998521732\n certificate self-signed 01\n  \tquit\n!\n!\n\
+          memory free low-watermark processor 79983\n!\n!\nspanning-tree mode rapid-pvst\n\
+          !\n!\nusername gns password 0 vault\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n\
+          !\n!\n!\n!\n!\n!\n!\n!\n!\ninterface Loopback0\n ip address 2.2.2.2 255.255.254.0\n\
+          !\ninterface Loopback1\n ip address 22.22.22.22 255.255.255.252\n!\ninterface\
+          \ Loopback2\n ip address 222.222.222.222 255.255.248.0\n!\ninterface Ethernet0/0\n\
+          \ ip address 192.168.12.2 255.255.255.0\n!\ninterface Ethernet0/1\n ip address\
+          \ 192.168.23.2 255.255.255.0\n!\ninterface Ethernet0/2\n no ip address\n\
+          \ shutdown\n!\ninterface Ethernet0/3\n no ip address\n shutdown\n!\nrouter\
+          \ ospf 1\n network 0.0.0.0 255.255.255.255 area 0\n!\nip forward-protocol\
+          \ nd\nip forward-protocol udp\n!\n!\nip http server\nip http secure-server\n\
+          ip ssh bulk-mode 131072\nno logging btrace\n!\n!\n!\ncontrol-plane\n!\n\
+          !\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\nline aux 0\n\
+          line vty 0 4\n exec-timeout 0 0\n login local\n transport input telnet ssh\n\
+          !\n!\n!\n!\nend"
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n1
+    image_definition: null
+    label: FBI
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -520
+    y: 80
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1444 bytes
+          !
+          ! Last configuration change at 05:48:15 UTC Wed Feb 11 2026
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname NSA
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          no ip domain lookup
+          ip domain name gns3vault.local
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          crypto pki trustpoint TP-self-signed-998521732
+           enrollment selfsigned
+           subject-name cn=IOS-Self-Signed-Certificate-998521732
+           revocation-check none
+           rsakeypair TP-self-signed-998521732
+           hash sha512
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          username gns3 password 0 vault
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 3.3.3.3 255.255.255.0
+          !
+          interface Loopback1
+           ip address 33.33.33.33 255.255.255.0
+          !
+          interface Ethernet0/0
+           ip address 192.168.13.3 255.255.255.0
+          !
+          interface Ethernet0/1
+           ip address 192.168.23.3 255.255.255.0
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router ospf 1
+           network 0.0.0.0 255.255.255.255 area 0
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           length 0
+           transport input telnet ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n2
+    image_definition: null
+    label: NSA
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -240
+    y: 80
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+links:
+  - id: l0
+    n1: n0
+    n2: n1
+    i1: i1
+    i2: i1
+    conditioning: {}
+    label: CIA-Ethernet0/0<->FBI-Ethernet0/0
+  - id: l1
+    n1: n1
+    n2: n2
+    i1: i2
+    i2: i2
+    conditioning: {}
+    label: FBI-Ethernet0/1<->NSA-Ethernet0/1
+  - id: l2
+    n1: n2
+    n2: n0
+    i1: i1
+    i2: i2
+    conditioning: {}
+    label: NSA-Ethernet0/0<->CIA-Ethernet0/1
+lab:
+  description: ''
+  notes: ''
+  title: named-access-lists-starting
+  version: 0.3.0

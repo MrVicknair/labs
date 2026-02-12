@@ -1,0 +1,253 @@
+annotations:
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 192.168.12.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -588.0035337126435
+    y1: -108.00353371264353
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -620.8524674971321
+    y1: -106.96849106226178
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -433.89575547701554
+    y1: -103.9575954482775
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#808080FF'
+    rotation: 0
+    text_bold: false
+    text_content: |-
+      * All IP addresses have been configured for you, look at the topology picture for the IP addresses.
+      * Configure router Fuzz so users have to be authorized when they want to use the console. Use the (fictional) RADIUS server at IP address 192.168.23.3 for this. When the radius server is unreachable you should use the local username "test" with password "vault" for authentication.
+      * Username "test" should have privilege level 5.
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -683.5129569463596
+    y1: 29.433739074359693
+    z_index: 1
+smart_annotations: []
+nodes:
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: "Building configuration...\n\nCurrent configuration : 3168 bytes\n\
+          !\n! Last configuration change at 05:43:13 UTC Thu Feb 12 2026\n!\nversion\
+          \ 17.16\nservice timestamps debug datetime msec\nservice timestamps log\
+          \ datetime msec\n!\nhostname Lock\n!\nboot-start-marker\nboot-end-marker\n\
+          !\n!\nno logging console\nno aaa new-model\n!\n!\n!\n!\n!\n!\n!\n!\n!\n\
+          !\n!\n!\n!\nip cef\nlogin on-success log\nno ipv6 cef\n!\n!\n!\n!\n!\n!\n\
+          !\n!\n!\n!\ncrypto pki trustpoint TP-self-signed-131184646\n enrollment\
+          \ selfsigned\n subject-name cn=IOS-Self-Signed-Certificate-131184646\n revocation-check\
+          \ none\n rsakeypair TP-self-signed-131184646\n hash sha512\n!\n!\ncrypto\
+          \ pki certificate chain TP-self-signed-131184646\n certificate self-signed\
+          \ 01\n  3082032E 30820216 A0030201 02020101 300D0609 2A864886 F70D0101 0D050030\n\
+          \  30312E30 2C060355 04030C25 494F532D 53656C66 2D536967 6E65642D 43657274\n\
+          \  69666963 6174652D 31333131 38343634 36301E17 0D323630 32313230 35343135\n\
+          \  365A170D 33363032 31323035 34313536 5A303031 2E302C06 03550403 0C25494F\n\
+          \  532D5365 6C662D53 69676E65 642D4365 72746966 69636174 652D3133 31313834\n\
+          \  36343630 82012230 0D06092A 864886F7 0D010101 05000382 010F0030 82010A02\n\
+          \  82010100 A572DB92 6486E425 F8A58735 4A105063 88A8A7AA 15D5013D 71509128\n\
+          \  FB3902B0 CD0C4D99 9591440C 8FC8C0F9 5AFA8127 E03EE090 E7772C5E ABFCA307\n\
+          \  A928A844 E5B7F6B9 9285AF8A 47B182DA 743F2EAE A3B9B29B EC39014A 0E78AA80\n\
+          \  3BBA166E 976A736B 83BE7095 48880363 017646A1 71538400 4CD5675F 3E5CE6A2\n\
+          \  D1A7A60F 80AE4D83 5D20BE2B 9FFFB942 4A128640 A35B2A55 ABA185CA 07854F94\n\
+          \  E8F94E24 711F607B FAE6719B CE9FDC7C DD752AD9 434F207D 1F994B65 DFBE4511\n\
+          \  96F80B69 47672C2A 1B04A23B 33FF7D62 89E874AB F18FB0CC 3698A14C 92997373\n\
+          \  4C37A4B0 AA6AFBAD AEFD6111 21A1AF6F 5CAB8CC0 2DB4A6B7 4D8FE87A 56525568\n\
+          \  3CF3576B 02030100 01A35330 51301D06 03551D0E 04160414 46DCAA90 C26E1FE0\n\
+          \  15CA73B9 5C2130CB A279A524 301F0603 551D2304 18301680 1446DCAA 90C26E1F\n\
+          \  E015CA73 B95C2130 CBA279A5 24300F06 03551D13 0101FF04 05300301 01FF300D\n\
+          \  06092A86 4886F70D 01010D05 00038201 01007636 7C67CB8B 7EC4C616 1F1F80EF\n\
+          \  D6BA94EC 76EE0EE7 B6247C55 706F194D B33C46E1 2DF71458 C1116217 93A6C249\n\
+          \  912286C9 4A4105F7 29920438 52AFDFE8 62F53687 BC40525D BB486774 92A1A2EE\n\
+          \  D6B713D7 42BE7608 E37C33D1 ED9DD16C F9355C48 80066563 5828F98D CC414548\n\
+          \  58D5479C FF035F59 C6550ACD 8AA022EB F94F5F69 E6AE571B DBD650DD 09DBA304\n\
+          \  576185C3 05917548 DD5A7639 6C5E1620 6FB29AAC 65E8E101 90733CFA FC34C1F0\n\
+          \  1926D885 D661AA23 86A153AF 88489EF4 6AC566D4 3305068B 9DA59875 107B52CF\n\
+          \  9241831B 3B6B25B9 88553B8E 63AE2402 F9470EA9 353EDF57 3DDB83FE 385BFA99\n\
+          \  C6C798F5 CD020C91 C5C20562 C74545D2 CC26\n  \tquit\n!\n!\nmemory free\
+          \ low-watermark processor 79983\n!\n!\nspanning-tree mode rapid-pvst\n!\n\
+          !\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface\
+          \ Ethernet0/0\n ip address 192.168.12.1 255.255.255.0\n!\ninterface Ethernet0/1\n\
+          \ no ip address\n shutdown\n!\ninterface Ethernet0/2\n no ip address\n shutdown\n\
+          !\ninterface Ethernet0/3\n no ip address\n shutdown\n!\nip forward-protocol\
+          \ nd\nip forward-protocol udp\n!\n!\nip http server\nip http secure-server\n\
+          ip ssh bulk-mode 131072\nno logging btrace\n!\n!\n!\ncontrol-plane\n!\n\
+          !\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\nline aux 0\n\
+          line vty 0 4\n exec-timeout 0 0\n login\n transport input ssh\n!\n!\n!\n\
+          !\nend"
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n0
+    image_definition: null
+    label: Lock
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -640
+    y: -80
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: "Building configuration...\n\nCurrent configuration : 3168 bytes\n\
+          !\n! Last configuration change at 05:43:13 UTC Thu Feb 12 2026\n!\nversion\
+          \ 17.16\nservice timestamps debug datetime msec\nservice timestamps log\
+          \ datetime msec\n!\nhostname Fuzz\n!\nboot-start-marker\nboot-end-marker\n\
+          !\n!\nno logging console\nno aaa new-model\n!\n!\n!\n!\n!\n!\n!\n!\n!\n\
+          !\n!\n!\n!\nip cef\nlogin on-success log\nno ipv6 cef\n!\n!\n!\n!\n!\n!\n\
+          !\n!\n!\n!\ncrypto pki trustpoint TP-self-signed-131184653\n enrollment\
+          \ selfsigned\n subject-name cn=IOS-Self-Signed-Certificate-131184653\n revocation-check\
+          \ none\n rsakeypair TP-self-signed-131184653\n hash sha512\n!\n!\ncrypto\
+          \ pki certificate chain TP-self-signed-131184653\n certificate self-signed\
+          \ 01\n  3082032E 30820216 A0030201 02020101 300D0609 2A864886 F70D0101 0D050030\n\
+          \  30312E30 2C060355 04030C25 494F532D 53656C66 2D536967 6E65642D 43657274\n\
+          \  69666963 6174652D 31333131 38343635 33301E17 0D323630 32313230 35343135\n\
+          \  325A170D 33363032 31323035 34313532 5A303031 2E302C06 03550403 0C25494F\n\
+          \  532D5365 6C662D53 69676E65 642D4365 72746966 69636174 652D3133 31313834\n\
+          \  36353330 82012230 0D06092A 864886F7 0D010101 05000382 010F0030 82010A02\n\
+          \  82010100 A2D05E26 627A5142 C4B8DD94 F4701EA4 45F69DD0 A33D5AF9 90174292\n\
+          \  3222EBB2 1A2752F3 0C7B6590 C29A7C4D 0C19776B 3A529571 368BF2CE 48ABE404\n\
+          \  855AE733 3466BEAE 050EA8B2 27535BE5 FCA4B23C 6DE5AD36 A8A8FA91 B431BFC4\n\
+          \  73CC89E1 DD3DB8D7 FB3AE268 A0CB38B8 F04A7FE8 48E44D19 D26BADC5 4927289F\n\
+          \  EFE93AAF DDFB790E B3F056E0 6E8C76D8 D6F31ED7 1BDEB59C 6AA07F4D 42248B82\n\
+          \  68919566 C5DC7E07 06C977F2 F8539068 2B1D4CE3 6A898EBD BF09E10E 730A98DE\n\
+          \  E6DF4F31 7A8AAC22 EA0873F3 53220AD1 327F1C2D 92ACC5E2 2B58FB1C 148E9653\n\
+          \  51C57B58 D28FC371 1A2AF55A C0637905 806D8B0F 05C52870 13273A6E 7F2BFD7A\n\
+          \  5AF64AD1 02030100 01A35330 51301D06 03551D0E 04160414 C0345180 EAD90624\n\
+          \  9CE7B5AF 95D50D6B EAB7CEA0 301F0603 551D2304 18301680 14C03451 80EAD906\n\
+          \  249CE7B5 AF95D50D 6BEAB7CE A0300F06 03551D13 0101FF04 05300301 01FF300D\n\
+          \  06092A86 4886F70D 01010D05 00038201 01002888 04CBE9D1 E238D4D6 6F9319C2\n\
+          \  608BDEEA 405E2875 B4ABFFF7 557B4D76 DA25905D EF147939 46EF04CA 8986BDE3\n\
+          \  FF1D6B4B C9CF734A BC693E12 CF3602C7 46ED171D 9DA0AE82 91830E31 4D9ADFA2\n\
+          \  EFD28B8D 97608232 7EB80D97 2D93BDF2 29B3711D DDAC2D82 7B59F01E 9F58232F\n\
+          \  0CC64758 F447B309 B0DEFAAB B1A1178B 267AA9D6 EE62B891 9E64C016 08BD3A63\n\
+          \  9AF87E01 1BA03C2F F85181F9 4DF14133 DF1EDE52 E1D00316 57B15283 0476ADCA\n\
+          \  085527C6 1C9C1F61 1C83FA4E C92A6EC9 389834AA 92DD996C 7BDA36CE AF95172A\n\
+          \  C88BBD6B 6DD52E13 729EFA30 15C02911 01A1CBD5 A25308CC 0E2EB1EB 84266101\n\
+          \  BE45AFF3 91C4B4AB FDA319B8 65C37506 D364\n  \tquit\n!\n!\nmemory free\
+          \ low-watermark processor 79983\n!\n!\nspanning-tree mode rapid-pvst\n!\n\
+          !\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface\
+          \ Ethernet0/0\n ip address 192.168.12.2 255.255.255.0\n!\ninterface Ethernet0/1\n\
+          \ no ip address\n shutdown\n!\ninterface Ethernet0/2\n no ip address\n shutdown\n\
+          !\ninterface Ethernet0/3\n no ip address\n shutdown\n!\nip forward-protocol\
+          \ nd\nip forward-protocol udp\n!\n!\nip http server\nip http secure-server\n\
+          ip ssh bulk-mode 131072\nno logging btrace\n!\n!\n!\ncontrol-plane\n!\n\
+          !\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\nline aux 0\n\
+          line vty 0 4\n exec-timeout 0 0\n login\n transport input ssh\n!\n!\n!\n\
+          !\nend"
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n1
+    image_definition: null
+    label: Fuzz
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -400
+    y: -80
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+links:
+  - id: l0
+    n1: n0
+    n2: n1
+    i1: i1
+    i2: i1
+    conditioning: {}
+    label: Lock-Ethernet0/0<->Fuzz-Ethernet0/0
+lab:
+  description: ''
+  notes: ''
+  title: aaa-exec-authorization-starting
+  version: 0.3.0

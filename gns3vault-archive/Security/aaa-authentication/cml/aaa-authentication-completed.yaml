@@ -1,0 +1,451 @@
+annotations:
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 192.168.12.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -588.0035337126435
+    y1: -108.00353371264353
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -620.8524674971321
+    y1: -106.96849106226178
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -433.89575547701554
+    y1: -103.9575954482775
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#808080FF'
+    rotation: 0
+    text_bold: false
+    text_content: |-
+      * All IP addresses have been configured for you, look at the topology picture for the IP addresses.
+      * Configure router Fuzz so it uses the (fictional) radius server at IP address 192.168.23.3. Updates should be sourced from the loopback0 interface.
+      * Configure router Fuzz so console access uses a local username 'console' with password 'vault'.
+      * Configure router Fuzz so VTY access uses the radius server, when it fails it should switch to a local username 'telnet' with password 'unsafe'.
+      * Configure router Fuzz so everyone sees the message "ID required" when they try to login using AAA.
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -683.5129569463596
+    y1: 29.433739074359693
+    z_index: 1
+smart_annotations: []
+nodes:
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1790 bytes
+          !
+          ! Last configuration change at 04:43:20 UTC Thu Feb 12 2026
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname Lock
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          aaa new-model
+          !
+          !
+          aaa authentication banner ^C
+          ID required
+          ^C
+          aaa authentication login AUTH1 group radius local none
+          aaa authentication login CONSOLE local
+          aaa authentication login VTY group radius local
+          aaa authentication enable default enable
+          aaa authorization exec default none
+          !
+          aaa session-id common
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          enable secret 9 $9$hswP9YoFgzt9D.$ch85eBFyhD5SEriuP97fYkE3UHz1Glk89VfnXCD7de.
+          !
+          username console privilege 15 secret 9 $9$AWKm8CNR7cNq1k$FgZ4iVvbwkwq00Las6ef0Uh.TlWNI9lKQgiN8XZDGT.
+          username telnet privilege 15 secret 9 $9$GLa2oWhVCjDcs.$ym0VsYptaDV/YcN5Sn0k1yM2UFMkRthnsFkrlVB8QJA
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 1.1.1.1 255.255.255.255
+          !
+          interface Ethernet0/0
+           ip address 192.168.12.1 255.255.255.0
+          !
+          interface Ethernet0/1
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          ip radius source-interface Loopback0
+          no logging btrace
+          !
+          !
+          !
+          !
+          radius server TwentyThreeDotThree
+           address ipv4 192.168.23.3 auth-port 1812 acct-port 1813
+           key radiuskey
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+           login authentication CONSOLE
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login authentication VTY
+           transport input telnet ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n0
+    image_definition: null
+    label: Lock
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -640
+    y: -80
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1800 bytes
+          !
+          ! Last configuration change at 04:43:20 UTC Thu Feb 12 2026 by telnet
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname Lock
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          aaa new-model
+          !
+          !
+          aaa authentication banner ^C
+          ID required
+          ^C
+          aaa authentication login AUTH1 group radius local none
+          aaa authentication login CONSOLE local
+          aaa authentication login VTY group radius local
+          aaa authentication enable default enable
+          aaa authorization exec default none
+          !
+          aaa session-id common
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          enable secret 9 $9$hswP9YoFgzt9D.$ch85eBFyhD5SEriuP97fYkE3UHz1Glk89VfnXCD7de.
+          !
+          username console privilege 15 secret 9 $9$AWKm8CNR7cNq1k$FgZ4iVvbwkwq00Las6ef0Uh.TlWNI9lKQgiN8XZDGT.
+          username telnet privilege 15 secret 9 $9$GLa2oWhVCjDcs.$ym0VsYptaDV/YcN5Sn0k1yM2UFMkRthnsFkrlVB8QJA
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 1.1.1.1 255.255.255.255
+          !
+          interface Ethernet0/0
+           ip address 192.168.12.1 255.255.255.0
+          !
+          interface Ethernet0/1
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          ip http server
+          ip http secure-server
+          ip ssh bulk-mode 131072
+          ip radius source-interface Loopback0
+          no logging btrace
+          !
+          !
+          !
+          !
+          radius server TwentyThreeDotThree
+           address ipv4 192.168.23.3 auth-port 1812 acct-port 1813
+           key radiuskey
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+           login authentication CONSOLE
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login authentication VTY
+           transport input telnet ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n1
+    image_definition: null
+    label: Fuzz
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -400
+    y: -80
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+links:
+  - id: l0
+    n1: n0
+    n2: n1
+    i1: i1
+    i2: i1
+    conditioning: {}
+    label: Lock-Ethernet0/0<->Fuzz-Ethernet0/0
+lab:
+  description: ''
+  notes: ''
+  title: aaa-authentication-completed
+  version: 0.3.0

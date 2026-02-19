@@ -1,0 +1,966 @@
+annotations:
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 192.168.12.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -698.8177193228041
+    y1: -71.9905767662839
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 192.168.13.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -699.8056458046052
+    y1: 58.98262591283594
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 192.168.24.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -375.88927700383573
+    y1: -75.9658407777791
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 192.168.34.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -376.87720348563687
+    y1: 64.00471161685806
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: 192.168.23.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -546.0041226647515
+    y1: -5.998233143678249
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.1'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -684.5992243411671
+    y1: -6.548534003932097
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.2'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -485.62419946628626
+    y1: -159.5182182860202
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.3'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -489.6172881109073
+    y1: 165.43701498027573
+    z_index: 1
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: '.4'
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -257.6474467525606
+    y1: -8.52937070038156
+    z_index: 1
+  - border_color: '#808080FF'
+    border_style: ''
+    color: '#DD5656FF'
+    rotation: 0
+    thickness: 1
+    type: ellipse
+    x1: -211.81176303445963
+    y1: 2.6863976513771277
+    x2: 119.481229387096
+    y2: 101.48405675975098
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: AS 4
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -144.32236568191593
+    y1: -2.812738429200494
+    z_index: 2
+  - border_color: '#808080FF'
+    border_style: ''
+    color: '#33FFA9FF'
+    rotation: 0
+    thickness: 1
+    type: ellipse
+    x1: -575.2546658144547
+    y1: 5.685926422601341
+    x2: 198.96874182453658
+    y2: 197.46897743892433
+    z_index: 0
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: |-
+      ## Goal
+
+      - All IP addresses have been preconfigured for you as specified in the topology picture.
+      - Configure IBGP in AS 1.
+      - Configure EBGP between AS1 and AS 2.
+      - Advertise the 4.4.4.0 /24 network on router Jamaica.
+      - Ensure AS 1 will use the link between Cuba and Jamaica for traffic towards network 4.4.4.0 /24. You are only allowed to use the MED (metric) BGP attribute for this.
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -81.33226148620854
+    y1: -95.79813033714976
+    z_index: 3
+  - border_color: '#00000000'
+    border_style: ''
+    color: '#FFFFFF'
+    rotation: 0
+    text_bold: false
+    text_content: AS 1
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -758.2259208591288
+    y1: -0.4885481173340045
+    z_index: 4
+smart_annotations: []
+nodes:
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1406 bytes
+          !
+          ! Last configuration change at 04:55:32 UTC Thu Feb 19 2026
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname Jamaica
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          no ip domain lookup
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 4.4.4.4 255.255.255.0
+          !
+          interface Ethernet0/0
+           ip address 192.168.24.4 255.255.255.0
+          !
+          interface Ethernet0/1
+           ip address 192.168.34.4 255.255.255.0
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router bgp 4
+           bgp log-neighbor-changes
+           network 4.4.4.0 mask 255.255.255.0
+           neighbor 192.168.24.2 remote-as 1
+           neighbor 192.168.24.2 route-map SET_MED_200 out
+           neighbor 192.168.34.3 remote-as 1
+           neighbor 192.168.34.3 route-map SET_MED_100 out
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          no ip http server
+          no ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          route-map SET_MED_100 permit 10
+           set metric 100
+          !
+          route-map SET_MED_200 permit 10
+           set metric 200
+          !
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n0
+    image_definition: null
+    label: Jamaica
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -280
+    y: 0
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1460 bytes
+          !
+          ! Last configuration change at 04:55:32 UTC Thu Feb 19 2026
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname Suriname
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          no ip domain lookup
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 1.1.1.1 255.255.255.0
+          !
+          interface Ethernet0/0
+           ip address 192.168.12.1 255.255.255.0
+          !
+          interface Ethernet0/1
+           ip address 192.168.13.1 255.255.255.0
+          !
+          interface Ethernet0/2
+           no ip address
+           shutdown
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router ospf 1
+           passive-interface default
+           no passive-interface Ethernet0/0
+           no passive-interface Ethernet0/1
+           network 0.0.0.0 255.255.255.255 area 0
+          !
+          router bgp 1
+           bgp log-neighbor-changes
+           neighbor 2.2.2.2 remote-as 1
+           neighbor 2.2.2.2 update-source Loopback0
+           neighbor 2.2.2.2 next-hop-self
+           neighbor 3.3.3.3 remote-as 1
+           neighbor 3.3.3.3 update-source Loopback0
+           neighbor 3.3.3.3 next-hop-self
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          no ip http server
+          no ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n1
+    image_definition: null
+    label: Suriname
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -640
+    y: 0
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1621 bytes
+          !
+          ! Last configuration change at 04:55:32 UTC Thu Feb 19 2026
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname Haiti
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          no ip domain lookup
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 2.2.2.2 255.255.255.0
+          !
+          interface Ethernet0/0
+           ip address 192.168.12.2 255.255.255.0
+          !
+          interface Ethernet0/1
+           ip address 192.168.23.2 255.255.255.0
+          !
+          interface Ethernet0/2
+           ip address 192.168.24.2 255.255.255.0
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router ospf 1
+           passive-interface default
+           no passive-interface Ethernet0/0
+           no passive-interface Ethernet0/1
+           network 0.0.0.0 255.255.255.255 area 0
+          !
+          router bgp 1
+           bgp log-neighbor-changes
+           redistribute ospf 1
+           neighbor 1.1.1.1 remote-as 1
+           neighbor 1.1.1.1 update-source Loopback0
+           neighbor 1.1.1.1 next-hop-self
+           neighbor 1.1.1.1 soft-reconfiguration inbound
+           neighbor 3.3.3.3 remote-as 1
+           neighbor 3.3.3.3 update-source Loopback0
+           neighbor 3.3.3.3 next-hop-self
+           neighbor 3.3.3.3 soft-reconfiguration inbound
+           neighbor 192.168.24.4 remote-as 4
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          no ip http server
+          no ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n2
+    image_definition: null
+    label: Haiti
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -480
+    y: -120
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: |-
+          Building configuration...
+
+          Current configuration : 1620 bytes
+          !
+          ! Last configuration change at 04:55:33 UTC Thu Feb 19 2026
+          !
+          version 17.16
+          service timestamps debug datetime msec
+          service timestamps log datetime msec
+          !
+          hostname Cuba
+          !
+          boot-start-marker
+          boot-end-marker
+          !
+          !
+          no logging console
+          no aaa new-model
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          no ip domain lookup
+          ip cef
+          login on-success log
+          no ipv6 cef
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          memory free low-watermark processor 79983
+          !
+          !
+          spanning-tree mode rapid-pvst
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          !
+          interface Loopback0
+           ip address 3.3.3.3 255.255.255.0
+          !
+          interface Ethernet0/0
+           ip address 192.168.13.3 255.255.255.0
+          !
+          interface Ethernet0/1
+           ip address 192.168.23.3 255.255.255.0
+          !
+          interface Ethernet0/2
+           ip address 192.168.34.3 255.255.255.0
+          !
+          interface Ethernet0/3
+           no ip address
+           shutdown
+          !
+          router ospf 1
+           passive-interface default
+           no passive-interface Ethernet0/0
+           no passive-interface Ethernet0/1
+           network 0.0.0.0 255.255.255.255 area 0
+          !
+          router bgp 1
+           bgp log-neighbor-changes
+           redistribute ospf 1
+           neighbor 1.1.1.1 remote-as 1
+           neighbor 1.1.1.1 update-source Loopback0
+           neighbor 1.1.1.1 next-hop-self
+           neighbor 1.1.1.1 soft-reconfiguration inbound
+           neighbor 2.2.2.2 remote-as 1
+           neighbor 2.2.2.2 update-source Loopback0
+           neighbor 2.2.2.2 next-hop-self
+           neighbor 2.2.2.2 soft-reconfiguration inbound
+           neighbor 192.168.34.4 remote-as 4
+          !
+          ip forward-protocol nd
+          ip forward-protocol udp
+          !
+          !
+          no ip http server
+          no ip http secure-server
+          ip ssh bulk-mode 131072
+          no logging btrace
+          !
+          !
+          !
+          control-plane
+          !
+          !
+          !
+          line con 0
+           exec-timeout 0 0
+           logging synchronous
+          line aux 0
+          line vty 0 4
+           exec-timeout 0 0
+           login
+           transport input ssh
+          !
+          !
+          !
+          !
+          end
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n3
+    image_definition: null
+    label: Cuba
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -480
+    y: 120
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+links:
+  - id: l0
+    n1: n1
+    n2: n2
+    i1: i1
+    i2: i1
+    conditioning: {}
+    label: r-0-Ethernet0/0<->r-1-Ethernet0/0
+  - id: l1
+    n1: n2
+    n2: n3
+    i1: i2
+    i2: i2
+    conditioning: {}
+    label: r-1-Ethernet0/1<->r-2-Ethernet0/1
+  - id: l2
+    n1: n1
+    n2: n3
+    i1: i2
+    i2: i1
+    conditioning: {}
+    label: r-0-Ethernet0/1<->r-2-Ethernet0/0
+  - id: l3
+    n1: n2
+    n2: n0
+    i1: i3
+    i2: i1
+    conditioning: {}
+    label: r-1-Ethernet0/2<->r-3-Ethernet0/0
+  - id: l4
+    n1: n3
+    n2: n0
+    i1: i3
+    i2: i2
+    conditioning: {}
+    label: r-2-Ethernet0/2<->r-3-Ethernet0/1
+lab:
+  description: ''
+  notes: ''
+  title: bgp-attribute-med-completed
+  version: 0.3.0
